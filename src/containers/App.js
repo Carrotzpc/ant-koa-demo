@@ -31,7 +31,7 @@ const App = React.createClass({
             </Breadcrumb>
           </div>
           <div className="ant-layout-container">
-            <div style={{ height: 210 }}><Calendar /></div>
+            <div><Calendar /></div>
           </div>
         </div>
         <div className="ant-layout-footer">
