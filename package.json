@@ -1,0 +1,68 @@
+{
+  "name": "ant-koa-demo",
+  "version": "0.1.0",
+  "description": "A demo for http://ant.design/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Carrotzpc/ant-koa-demo"
+  },
+  "bugs": {
+    "url": "https://github.com/Carrotzpc/ant-koa-demo/issues"
+  },
+  "contributors": [
+    "Carrotzpc"
+  ],
+  "entry": {
+    "index": "./src/entry/index.js"
+  },
+  "dependencies": {
+    "antd": "0.10.x",
+    "koa": "^1.1.2",
+    "koa-ejs": "^3.0.0",
+    "koa-logger": "^1.3.0",
+    "koa-router": "^5.3.0",
+    "koa-static": "^1.5.2",
+    "less": "2.x",
+    "react": "~0.14.3",
+    "react-dom": "~0.14.3"
+  },
+  "devDependencies": {
+    "autoprefixer-loader": "^3.1.0",
+    "babel-cli": "^6.2.0",
+    "babel-core": "^6.3.15",
+    "babel-eslint": "~4.0.5",
+    "babel-loader": "^6.2.0",
+    "babel-plugin-add-module-exports": "^0.1.1",
+    "babel-polyfill": "^6.3.14",
+    "babel-preset-es2015": "^6.1.18",
+    "babel-preset-react": "^6.1.18",
+    "babel-preset-stage-0": "^6.1.18",
+    "concurrently": "^1.0.0",
+    "css-loader": "^0.23.0",
+    "eslint": "~1.6.0",
+    "eslint-config-airbnb": "~0.1.0",
+    "eslint-plugin-react": "~3.5.1",
+    "expect.js": "~0.3.1",
+    "extract-text-webpack-plugin": "^0.9.1",
+    "js-base64": "^2.1.9",
+    "json-loader": "^0.5.1",
+    "koa-webpack-dev-middleware": "^1.0.1",
+    "less": "~2.5.3",
+    "less-loader": "^2.2.0",
+    "lesshint-antd": "~1.1.0",
+    "pre-commit": "1.x",
+    "react-transform-hmr": "^1.0.1",
+    "webpack": "^1.12.9",
+    "webpack-hot-middleware": "^2.6.0"
+  },
+  "pre-commit": [
+    "lint"
+  ],
+  "scripts": {
+    "start": "npm run dev",
+    "dev": "node index.js",
+    "test": "antd test",
+    "lint": "eslint --ext .js,.jsx src",
+    "build": "webpack"
+  }
+}
