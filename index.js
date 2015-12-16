@@ -1,7 +1,7 @@
 /*
- * An demo for http://ant.design/
+ * A demo for http://ant.design/
  *
- * v0.1 - 2015-12-15
+ * v0.1.0 - 2015-12-15
  * @author Carrotzpc
 */
 
